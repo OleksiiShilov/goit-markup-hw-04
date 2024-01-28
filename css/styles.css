@@ -1,0 +1,372 @@
+/* ====Margin and Padding==== */
+
+body {
+  font-family: "Roboto", sans-serif;}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  width: 100%;
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+
+
+/* ===Header=== */
+
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.navigation-list {
+  display: flex;
+  align-items: center;
+}
+
+.navigation-list .link-logo {
+  font-family: "Raleway", sans-serif;
+  color: #4d5ae5;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  margin-right: 76px;
+  align-items: center;
+  padding: 24px 0;
+}
+
+.logo-studio {
+  color: #2e2f42;
+}
+
+.link-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.link {
+  color: #2e2f42;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  padding: 24px 0;
+  display: block;
+}
+
+.link:hover {
+  color: #404bbf;
+}
+
+.link:focus {
+  color: #404bbf;
+}
+
+.contacts {
+  font-style: normal; 
+  margin-left: auto;
+}
+
+.adress-list {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
+.contacts .contacts-list {
+  color: #434455;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.contacts-list:hover {
+  color: #404bbf;
+}
+
+.contacts-list:focus {
+  color: #404bbf;
+}
+
+/* ===BODY=== */
+
+.body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+/* ===Section 1=== */
+
+.first-section {
+  background-color: #2e2f42;
+  padding: 188px 0;
+}
+
+.first-section .page-title {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 1.12px;
+  max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
+}
+
+.first-section .button {
+  color: #ffffff;
+  background-color: #4d5ae5;
+  text-align: center;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  display: block;
+  margin: 0 auto;
+  padding: 16px 32px;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+}
+
+.first-section .button:hover {
+  background-color: #404bbf;
+}
+
+.first-section .button:focus {
+  background-color: #404bbf;
+}
+
+/* ===Section 2=== */
+
+
+.features {
+  margin: 0 auto; padding: 120px 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.features-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.features .features-list .section-title {
+  color: #2e2f42;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+  margin-bottom: 8px;
+  max-width: 264px;
+}
+
+.features .features-list .text {
+  color: #434455;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.features-list-item {
+  width: calc((100% - 72px) / 4);
+}
+
+/* ===Section 3=== */
+
+.team {
+  background-color: #f4f4fd;
+  justify-content: center;
+  padding: 120px 0;
+}
+
+.team-title {
+  color: #2e2f42;
+  text-transform: capitalize;
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 72px;
+}
+
+.team-person {
+  color: #2e2f42;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.team-list {
+  list-style: none;
+  justify-content: space-between;
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.team-list-item {
+  background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 72px) / 4);
+}
+
+.text-person {
+  color: #434455;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.team-card-content {
+  padding: 32px 0 32px;
+}
+
+/* ===Section 4=== */
+
+.portfolio {padding: 120px 0;}
+
+.portfolio-title {
+  color: #2e2f42;
+  text-transform: capitalize;
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 72px;
+}
+
+.portfolio-list {
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
+  gap: 48px 24px;
+  flex-wrap: wrap;
+}
+
+.portfolio-section {
+  color: #2e2f42;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px; 
+  margin-bottom: 8px;
+}
+
+.section-portfolio-text {
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  padding: 32px 16px;
+}
+
+.text-poprtfolio {
+  color: #434455;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.portfolio-list-item {
+  width: calc((100% - 48px) / 3);
+}
+
+/* ===Footer=== */
+
+.footer {
+  background-color: #2e2f42;
+  padding: 100px 0;
+}
+
+.link-footer {
+  font-family: "Raleway", sans-serif;
+  color: #4d5ae5;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.studio-logo-footer {
+  color: #f4f4fd;
+}
+
+.text-footer {
+  color: #f4f4fd;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  max-width: 264px;
+}
