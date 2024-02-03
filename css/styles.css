@@ -31,7 +31,8 @@ img {
   width: 100%;
   max-width: 1158px;
   padding: 0 15px;
-  margin: 0 auto;}
+  margin: 0 auto;
+}
 
 /* ===Header=== */
 
@@ -204,15 +205,10 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.first-section .button:focus {
-  background-color: #404bbf; transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-
-    .first-section .button:active {
-      background-color: #404bbf;
-      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
-
+.first-section .button:active {
+  background-color: #404bbf;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 /* ===Section 2=== */
 
@@ -365,7 +361,6 @@ img {
   fill: #f4f4fd;
 }
 
-
 .icons-link:hover {
   background-color: #404bbf;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -415,8 +410,8 @@ img {
 .section-portfolio-text {
   border: 1px solid #e7e9fc;
   border-top: none;
-  padding: 32px 16px;}
-
+  padding: 32px 16px;
+}
 
 .text-poprtfolio {
   color: #434455;
@@ -440,12 +435,10 @@ img {
 .portfolio-cover-wrap {
   position: relative;
   overflow: hidden;
-height: 100%;
-    display: flex;
-    transition: transform 250ms linear;
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-
+  height: 100%;
+  display: flex;
+  transition: transform 250ms linear;
+}
 
 .portfolio-cover-text {
   position: absolute;
@@ -459,7 +452,9 @@ height: 100%;
   letter-spacing: 0.02em;
   text-align: left;
   color: #f4f4fd;
-  transform: translateY(100%);}
+  transform: translateY(100%);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 /* ===Footer=== */
 
 .footer {
@@ -545,13 +540,10 @@ height: 100%;
   border-radius: 50%;
 }
 
-
 .icons-link-footer:hover {
   background-color: #31d0aa;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-
 
 .icons-link-footer:active {
   background-color: #31d0aa;
@@ -562,4 +554,3 @@ height: 100%;
   background-color: #31d0aa;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
