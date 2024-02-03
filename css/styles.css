@@ -50,10 +50,7 @@ img {
 .navigation-list {
   display: flex;
   align-items: center;
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
-
 .navigation-list .link-logo {
   font-family: "Raleway", sans-serif;
   color: #4d5ae5;
@@ -275,12 +272,9 @@ img {
   justify-content: center;
   align-items: center;
   margin-bottom: 30px;
-  fill: currentColor;
   background-color: #f4f4fd;
   border: 1px solid #8e8f99;
   border-radius: 4px;
-  gap: 24px;
-  width: 264px;
   height: 112px;
   margin-bottom: 8px;
 }
@@ -340,6 +334,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .team-card-content {
@@ -529,14 +524,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.32px;
   max-width: 264px;
-}
-
-.footer-icons-container {
-  max-width: 208px;
-  height: 80px;
-  margin-top: 0;
-  margin-left: 70px;
-  margin-bottom: 100px;
 }
 
 .footer-icons-list {
